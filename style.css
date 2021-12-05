@@ -34,14 +34,15 @@
   padding: 10px;
   margin: 10px;
 }
-.skincare {
-  width: 100%;
-  height: 50vh;
-  background-size: contain;
-  background-image: url(1.jpg);
+.phone {
+  width: 100vw;
+  height: 80vh;
+  /* background-size: contain; */
+  background-image: url(9.jpg);
+  /* margin-bottom: 0px; */
 }
 @media screen and (max-width: 698) {
-  .skincare {
+  .phone {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -55,7 +56,8 @@
   width: 90vw;
   height: 100vh;
   background-color: white(255, 255, 255);
-  margin: 80px;
+  margin: 100px;
+  margin-top: 20px ;
   justify-items: center;
   align-items: center;
   text-align: center;
@@ -106,6 +108,7 @@
   background-color: rgba(212, 201, 176, 0.788);
   width: 100vw;
   margin-bottom: 0px;
+  margin-top: 150px;
   padding: 0px;
 }
 
@@ -149,11 +152,11 @@
 .offer {
   border: 0px solid;
   padding: 5px;
-  background-color:rgba(212, 201, 176, 0.788) ;
+  background-color: rgba(212, 201, 176, 0.788);
 }
 .two {
   border-radius: 50%;
-  background-color:rgba(212, 201, 176, 0.788);
+  background-color: rgba(212, 201, 176, 0.788);
   margin: 5px;
   transition: width 2s;
   padding: 7px;
@@ -167,7 +170,7 @@
 } */
 .font {
   font-size: 25px;
-  color:white;
+  color: white;
 }
 .icon-foot {
   padding: 15px;
